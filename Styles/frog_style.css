@@ -1,0 +1,6 @@
+.choice{
+    color: white;
+}
+::placeholder {
+    color: crimson;
+}

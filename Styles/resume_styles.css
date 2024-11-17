@@ -1,6 +1,7 @@
 html {
     background: #F7F7FC;
-    font-family: 'Roboto';
+    font-family: 'RobotoSlab';
+    height: 1691px;
 }
 .main {
     width: 1176px;
@@ -20,6 +21,7 @@ html {
 .main-container {
     width: 100%;
     margin-top: 32px;
+    margin-bottom:62.5px;
 }
 .name {
     font-size: 50px;
@@ -45,11 +47,10 @@ html {
     min-width: 242.5px;
     height: 242.5px;
     border-radius: 15px;
-    background: url('../Frogs/necro.png') no-repeat;
+    background: url('../assets/necro.png') no-repeat;
     background-size: cover;
     margin-right: 32px;
 }
-
 .link {
     color: #6D6D6D;
     padding:6px 12px;
@@ -59,6 +60,7 @@ html {
     align-items: center;
     justify-content:left;
     margin: 6px;
+    border: 1px solid grey;
 }
 .link_2 {
     color: #6D6D6D;
@@ -71,12 +73,13 @@ html {
     text-decoration: none;
     margin: 6px 0px;
     width: 100%;
+    border: 1px solid grey;
 }
 .contacts {
     display: flex;
     flex-wrap: wrap;
     margin-top: 27.5px;
-    width: 600px ;
+    width: auto ;
 }
 .link > img {
     margin-right: 12px;
@@ -96,10 +99,17 @@ a:hover{
     width: auto;
     height: 31px;
 }
+.hobby_icon {
+    width: 16px;
+    height: 16px;
+}
+.skills_icon {
+    width: 23.5px;
+    height: 23.5px;
+}
 .profile_header {
-    width: 99px;
+    width: auto;
     height: 38px;
-    margin-top: 32px;
 }
 .section_name {
     font-size: 25px;
@@ -109,6 +119,11 @@ a:hover{
     text-align: left;
     color: #545454;
     text-transform: uppercase;
+}
+.left_sidebar {
+    border-right: 2px solid #e8e8e8;
+    width: 315px;
+    height: 100%;
 }
 .profile {
     width: 280.5px;
@@ -145,4 +160,191 @@ a:hover{
     width: 280px;
     border-bottom: 2px solid #e8e8e8;
     margin-top: 41.5px;
+}
+.left_line2 {
+    height: 0;
+    width: 280px;
+    border-bottom: 2px solid #e8e8e8;
+    margin-top: 32.5px;
+}
+.education {
+    width: 288px;
+    height: auto;
+    margin-top: 32.5px;
+    margin-left: 1px;
+    
+}
+.education_info {
+    height: auto;
+    margin-top: 32px;
+}
+.education_info2 {
+    height: auto;
+    padding-top: 26px;
+}
+.date {
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 22.5px;
+}
+.years {
+    width: 115.5px;
+    color: #6D6D6D;
+    padding:6px 12px;
+    background: #fff;
+    border-radius: 6.5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid grey;
+}
+.degree{
+    width: 284px;
+    margin-top: 10px;
+}
+.degree_name {
+    color: #545454;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.university {
+    width: 270px;
+    margin-top:8.5px;
+}
+.university_name {
+    color: #545454;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 20.25px;
+}
+.languages_list {
+    width: 283px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 1px;
+}
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    width: 100% ;
+}
+.language_name {
+    color: #6D6D6D;
+    padding:6px 12px;
+    background: #fff;
+    border-radius: 6.5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    align-items: center;
+    justify-content:center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    width: 88.5px;
+    height: 31.5px;
+    border: 1px solid grey;
+}
+.hobbies_info {
+    width: auto;
+    height: 148px;
+    margin-left: 1px;
+    margin-top: 32px;
+    margin-bottom: 93px;
+}
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    width: auto;
+    margin-left: -6px;
+}
+.hobbies_name {
+    width: auto;
+    height: auto;
+    padding: 6px 12px;
+    background: #FFFFFF;
+    border-radius: 6.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #545454;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    margin: 6px;
+    border: 1px solid grey;
+}
+p > img {
+    margin-right: 12px;    
+}
+.rightside_content {
+    width: 765px;
+    height: 1382.5px;
+    margin-left:356px;
+    position:absolute;
+}
+.my_projects {
+width: 100%;
+height:402.5px;
+}
+.project1 {
+    width:100%;
+    height:149px;
+    margin-top:24.5px;
+}
+.project2 {
+    width:100%;
+    height:160.5px;
+    margin-top: 30.5px;
+}
+.experience {
+    width: 100%;
+    height:402.5px; 
+    margin-top: 15px; 
+}
+.exp1 {
+    width:100%;
+    height:149px;
+    margin-top:15px;
+}
+.exp2 {
+    width:100%;
+    height:160.5px;
+    margin-top: 30.5px;
+}
+.my_skills {
+    width: 100%;
+    height: 313px;
+    margin-top: 3.5px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 23.5px;
+    width: 700px ;
+}
+.skill_name{
+    width: auto;
+    height: auto;
+    padding: 6px 12px;
+    background: #FFFFFF;
+    border-radius: 13px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: #545454;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 6px;
+    border: 1px solid grey;
+    line-height:22.5px ;
+}
+.my_certificates {
+    width: 100%;
+    height: 228px;
+    margin-top:39.5px
 }
