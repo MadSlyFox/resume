@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <div class="list">
+        <p class="accent">Абзац</p>
+    <ol class="list1" id="list_123">
+        <li class="list-item">Элемент списка</li>
+        <li class="list-item accent red">Элемент списка</li>
+        <li class="list-item">Элемент списка</li>
+        <li class="list-item accent">Элемент списка</li>
+        <li class="list-item">Элемент списка</li>
+        <li class="list-item">Элемент списка</li>
+        <li class="list-item red">Элемент списка</li>
+        <li class="list-item">Элемент списка</li>
+        <li class="list-item">Элемент списка</li>
+        <li class="list-item accent">Элемент списка</li>
+        <li>
+            <ol class="list2">
+                <li class="list-item">Элемент списка</li>
+                <li class="list-item accent red">Элемент списка</li>
+                <li class="list-item">Элемент списка</li>
+                <li class="list-item accent">Элемент списка</li>
+                <li class="list-item">Элемент списка</li>
+                <li class="list-item">Элемент списка</li>
+                <li class="list-item red">Элемент списка</li>
+                <li class="list-item">Элемент списка</li>
+                <li class="list-item">Элемент списка</li>
+                <li class="list-item accent">Элемент списка</li>
+            </ol>
+        </li>
+    </ol>
+    </div>
+    <style>
+        body {
+            background: rgb(66, 66, 66) 
+                url(https://devleader.pro/assets/logo-dark-mini.svg);
+            background-size: 20%;
+            background-repeat: repeat-y;
+        }
+        .list {
+            background:
+                url(https://devleader.pro/assets/logo-dark-mini.svg);
+            background-size: 20%;
+            background-repeat: repeat-y;
+            background-position: right;
+            width: 500px;
+        }
+        .list2 {
+            color:black;
+
+        }
+        .list1 {
+            color:blue;
+
+        }
+        .red {
+            color:red;
+        }
+        .red.accent{
+            font-size: 20px;
+        }
+        .accent {
+            font-weight: bold;
+        }
+        .list1 > .accent{
+            color: orange;
+        }
+        .list1 > .list-item {
+            display: inline;
+            font-family: sans-serif;
+            font-weight: 1 1000;
+            font-weight: 600;
+        }
+        .list1 .accent {
+            text-transform: uppercase;
+        }
+    </style>
+</body>
+</html>
