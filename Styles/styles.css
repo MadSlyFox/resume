@@ -1,6 +1,6 @@
 body {
     zoom: 125%;
-    background-image: url(wall.png);
+    background-image: url(../assets/wall.png);
     background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;

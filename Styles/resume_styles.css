@@ -81,10 +81,7 @@ html {
     margin-top: 27.5px;
     width: auto ;
 }
-.link > img {
-    margin-right: 12px;
-}
-.link_2 > img {
+a > img {
     margin-right: 12px;
 }
 a:active{

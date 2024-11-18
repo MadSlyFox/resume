@@ -4,3 +4,13 @@
 ::placeholder {
     color: crimson;
 }
+input[type="range"]::-webkit-slider-runnable-track {
+   background:linear-gradient(to right ,#ff0000 ,#ffff00 ,#008000 );
+   border-radius: 12px;
+   accent-color: rgb(138, 135, 135);
+   border: 0.5px solid black;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: rgb(255, 255, 255);
+}
