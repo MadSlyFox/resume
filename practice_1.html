@@ -141,8 +141,16 @@
   <input type="date">
   <input type="email" placeholder="Введите E-mail:">
   <div>
-    <input type="range" min="0" max="100" value="50">
     <label>Степень вашей лягушечести</label>
+    <input class="slider" type="range" min="0" max="5" list="data" value="1">
+    <datalist id="data">
+      <option value="0" label="0">0</option>
+      <option value="1" label="1">1</option>
+      <option value="2" label="2">2</option>
+      <option value="3" label="3">3</option>
+      <option value="4" label="4">4</option>
+      <option value="5" label="5">5</option>
+      </datalist>
   </div>
 </body>
 </html>
